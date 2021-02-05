@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/materialize.min.css" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <!--Creacion de la barra de navegacion-->
+            <nav class="container">
+                <div class="nav-wrapper">
+                    <a href="https://www.autonoma.edu.co" class="brand-logo">Logo</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Formulario</a></li>
+                        <li><a href="contact.html">Contactanos</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!--Creacion del formulario-->
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <!--Input typr text nameUser-->
+                        <div class="input-field col s8">
+                            <input type="text" id="user_name">
+                            <label for="user_name">Nombre</label>
+                        </div>
+                        <!--Input typr text nameUser-->
+                        <div class="input-field col s4">
+                            <input type="number" id="age_name">
+                            <label for="age_name">Edad</label>
+                        </div>
+                    </div>
+                    <div>
+                        <!--Input typr text nameUser-->
+                        <div class="input-field col s4">
+                            <input type="email" id="email_name"
+                                class="validate">
+                            <label for="email_user">Correo electronico</label>
+                            <span class="material-icons">
+                                alarm
+                            </span>
+                            <a class="waves-effect waves-light btn"><i
+                                    class="material-icons left">cloud</i>button</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/materialize.min.js"></script>
+    </body>
+</html>

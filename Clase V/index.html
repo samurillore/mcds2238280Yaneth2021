@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+        <title>Santiago</title>
+    </head>
+    <body>
+        <script src="js/function.js"></script>
+        <div class="container">
+            <!-- Shift + Alt + a -->
+            <!-- Primera fila -->
+            <!-- div.row genera automaticamente la clase de row -->
+            <!-- div.col genera automaticamente la clase de col -->
+            <div class="row">
+                <div class="input-field col s12">
+                    <input type="text" name="user_name" id="user_name">
+                    <label for="user_name">Nombre</label>
+
+                </div>
+                <!-- Segundo comentario -->
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input type="text" name="last_name" id="last_name"
+                        placeholder="Apellido Paterno">
+                </div>
+
+                <div class="input-field col s6">
+                    <input type="text" name="last_name1" id="last_name1"
+                        placeholder="Apellido Materno">
+                </div>
+            </div>
+
+                <!-- tercer comentario -->
+            
+            <div class="row">
+                <div class="input-field col s3">
+                    <input type="number" name="user_age" id="user_age" min="18" max="99" class="validate">
+                    <label for="user_age">Edad</label>
+                    <span class="helper-text" data-error="Debe ser mayor de edad">18-99</span>
+                </div>
+
+                <div class="input-field col s7">
+                    <input type="email" name="user_email" id="user_email" class="validate">
+                    <label for="user_email">Correo</label>
+                    <span class="helper-text" data-error="No ingresó una cuenta válida">18-99</span>
+                </div>
+            </div>
+
+
+                <!-- cuarta fila -->
+            
+                <div class="row">
+                    <div class="input-field col s6">
+                            <button class="btn waves-effect waves-ligth" type="reset" onclick="capturaValores()">Registrarse
+                                <i class="material-icons left">schedule_send</i>
+                            </button>
+                    </div>
+                    <div class="input-field col s6">
+                        <button class="btn waves-effect waves-ligth" type="reset">Cancelar
+                            <i class="material-icons left">cancel_schedule_send</i>
+                        </button>
+                </div>
+                </div>
+<!-- mostrar salida -->
+                <div class="row">
+                    <output id="s1"></output>
+                </div>
+                <br>
+                <div class="row">
+                    <output id="s2"></output>
+                </div>
+                <br>
+                <div class="row">
+                    <output id="s3"></output>
+                </div>
+                <div class="row">
+                    <output id="s4"></output>
+                </div>
+                <div class="row">
+                    <output id="s5"></output>
+                </div>
+
+        </div>
+            <!-- 
+            <div>
+                <h1>Titulo</h1>
+                <h2></h2>
+                <h3>Descripcion</h3>
+                <h4>texto1</h4>
+                <h5>texto2</h5>
+                <h6>Diminuta</h6>
+            </div>
+            <div>
+                <label>Texto informativo</label>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                    labore eveniet non. Illum molestias harum amet facere
+                    voluptatum
+                    sequi tempore dicta, commodi atque repellat accusamus, quam
+                    numquam magni. Neque, commodi!</p>
+            </div> -->
+        </div>
+    </body>
+</html>
